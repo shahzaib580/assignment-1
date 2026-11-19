@@ -1,0 +1,195 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #f6fafd;
+    --maincolor--: #164078;
+    --paracolor--: #9c9c9c;
+}
+
+#navbar {
+    background-color: var(--primary-color);
+
+}
+
+.main-btn {
+    background-color: #2f83cc;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    color: white;
+    background-color: #5aa6e9;
+
+}
+
+.nav-link:hover {
+    color: #2f83cf;
+}
+
+.logo a {
+    font-size: 30px;
+    color: #164078;
+    font-weight: lighter;
+}
+
+.second-btn {
+    background-color: #2f83cc;
+    color: white;
+    font-size: bold;
+    border-radius: 5px;
+    margin-top: 13px;
+    padding: 10px 40px;
+}
+
+.second-btn:hover {
+    color: white;
+    background-color: #5aa6e9;
+}
+
+
+#herosection {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/hero-bg-abstract.jpg);
+    background-size: cover;
+}
+
+.heroheading {
+    color: #164064;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.headingpara {
+    color: #7b7b7b;
+    font-size: 25px;
+}
+
+.cardpara {
+    color: var(--paracolor--);
+}
+
+.cards {
+    color: #3f8dd0;
+}
+
+.cardheading {
+    color: var(--maincolor--);
+}
+
+.mcard {
+    transition: all 0.4s ease;
+}
+
+.mcard:hover {
+    transform: scale(1.08);
+}
+
+.mcard:hover h4 {
+    color: #3c8bcf;
+
+}
+
+
+/* aboutsection */
+#about {
+    background-color: var(--primary-color)
+}
+
+.aboutheading {
+    color: #124265;
+}
+
+.aboutcol1 p i {
+    color: #2487ce;
+}
+
+.aboutcol1p {
+    font-size: 19px;
+}
+
+.aboutrow {
+    margin-top: 65px;
+}
+
+.fontsizebtm {
+    font-size: 20px;
+}
+
+--------------
+
+/* rateing */
+-------------------- .numbers {
+    background-color: #2974b3 !important;
+}
+
+.aboutheading h1 {
+    font-size: 50px;
+    color: #2487ce;
+}
+
+.aboutheading p {
+    color: #8b90a0;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+/* video */
+#video {
+    background-color: #ffffff;
+}
+
+.videoheading {
+    color: #124265;
+    font-size: 30px;
+    font-weight: 650;
+}
+
+.videop {
+    font-size: 19px;
+    font-style: italic;
+}
+
+.videocontent p i {
+    color: #2487ce;
+}
+
+.videocontent p {
+    font-size: 18px;
+}
+
+/* company */
+#companies {
+    background-color: #f6fafd;
+}
+
+.imgsize {
+    /* width: 50px;
+    height: 40px; */
+    transition: 0.3s;
+    filter: grayscale(100);
+    transition: all 0.4s ease;
+
+}
+
+.imgsize:hover {
+    filter: grayscale(0);
+    transform: scale(1.08);
+
+}
+
+/* testimonials*/
+
+
+
+
+.testimonialsheading h1{
+color: var(--maincolor--);
+}
+.testimonialsheading{
+
+}
+
+
+
