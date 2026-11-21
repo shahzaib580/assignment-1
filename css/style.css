@@ -208,7 +208,8 @@ color: var(--maincolor--);
 }
 .iconmoveto{
     position: relative;
-    right: 75px;
+    right: 70px;
+    font-size: 30px;
     top: 10px;
 
 }
@@ -264,9 +265,105 @@ color: var(--maincolor--);
 }
 .portfolioicons a{
     text-decoration: none;
-    color: ;
+    font-size: 18px;
+    color: gray;
+    margin: 10px 15px;
+}
+.portfolioicons:hover a{
+    color: #2f83cf;
 }
 
+
+
+
+
+
+
+
+/* pricing */
+.pricing-card {
+    background: white;
+    padding: 60px 40px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    min-height: 545px;
+}
+
+.pricing-card h5 {
+    color: #17466b;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #2695df;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.price span {
+    font-size: 30px;
+}
+
+.price small {
+    font-size: 17px;
+    color: #aaa;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.pricing-card li {
+    color: #00a76f;
+    margin-bottom: 22px;
+    font-size: 17px;
+}
+
+.pricing-card li span {
+    color: #888;
+    margin-left: 5px;
+}
+
+.pricing-card li.disabled {
+    color: #bbb;
+}
+
+.pricing-card li.disabled span {
+    text-decoration: line-through;
+    color: #bbb;
+}
+
+.buy-btn {
+    display: block;
+    margin: 35px auto 0;
+    border: 1px solid #aaa;
+    color: #888;
+    padding: 10px 35px;
+}
+
+/* Highlighted Business Plan */
+.featured {
+    background-color: #2989c9;
+    color: white;
+    min-height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.featured h5,
+.featured .price,
+.featured .price small,
+.featured .price span,
+.featured li,
+.featured li span {
+    color: white;
+}
+
+.featured .buy-btn {
+    border: 1px solid white;
+    color: white;
+}
 
 
 
